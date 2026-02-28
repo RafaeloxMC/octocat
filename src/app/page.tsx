@@ -6,10 +6,10 @@ export default function Home() {
 		<div className="flex min-h-screen items-center justify-center">
 			<main className="flex min-h-screen w-full max-w-5xl flex-col items-center justify-between py-32 px-16 sm:items-start text-amber-800">
 				<div>
-					<h1 className="text-6xl font-rubik text-start w-full -rotate-12 -translate-x-12 -translate-y-20">
+					<h1 className="-rotate-12 -translate-x-12 -translate-y-20">
 						Octocats!
 					</h1>
-					<p className="text-xl font-averia">
+					<p>
 						Don&apos;t we all love plushies? But wait... This
 						plushie kind of looks familiar! During{" "}
 						<Link href="https://overglade.hackclub.com/">
@@ -26,7 +26,7 @@ export default function Home() {
 						yourself? This is your chance! The promise is:
 					</p>
 
-					<h2 className="mt-4 text-3xl font-averia font-bold">
+					<h2 className="mt-4 text-3xl font-bold font-averia">
 						Ship 15h, get an Octocat for RenRan and yourself!
 					</h2>
 					<h2 className="text-xl font-averia">
@@ -42,7 +42,7 @@ export default function Home() {
 								"A picture of GitHub's Octocat plushie called Octoplush"
 							}
 						/>
-						<p className="text-xl font-averia">
+						<p>
 							Meet GitHub&apos;s iconic Octocat plushie — the
 							adorable eight-legged mascot that&apos;s captured
 							the hearts of developers everywhere! With its
