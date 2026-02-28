@@ -57,6 +57,54 @@ export default function Home() {
 							enthusiasts alike!
 						</p>
 					</div>
+
+					<h1 className="-rotate-12 -translate-x-12 -translate-y-20 mt-24">
+						The Rules
+					</h1>
+					<p>
+						&quot;How does this even work?&quot;, you might ask.
+						Well - it&apos; simple! You spend 10 hours coding and
+						track your time with{" "}
+						<Link href="https://hackatime.hackclub.com/">
+							Hackatime
+						</Link>
+						, and we will send an Octocat Plushie to RenRan! If you
+						spend an additional 5 hours, we will also send an
+						Octocat to you! What is important: make sure, your
+						project is GitHub-themed! This could be anything, here
+						are some examples:
+					</p>
+					<ul className="list-disc ml-4 my-2">
+						<li>
+							<p>
+								a website that shows analytics about GitHub
+								repositories
+							</p>
+						</li>
+						<li>
+							<p>
+								a CLI tool that makes your work with GitHub
+								projects easier
+							</p>
+						</li>
+						<li>
+							<p>a cool integration for GitHub README.md files</p>
+						</li>
+					</ul>
+
+					<p>Just be creative!</p>
+
+					<h1 className="-rotate-12 -translate-x-12 -translate-y-20 mt-24">
+						Who pays?
+					</h1>
+					<p>
+						This project is run by @xvcf, a member of{" "}
+						<Link href="https://hackclub.com/">Hack Club</Link>!
+						Hack Club is a 501(c)(3) non-profit organization and
+						they sponsor this project! And all the finances are
+						transparent and publicly visible through{" "}
+						<Link href="https://hcb.hackclub.com/">HCB</Link>.
+					</p>
 				</div>
 			</main>
 		</div>
