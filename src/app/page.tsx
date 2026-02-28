@@ -33,7 +33,7 @@ export default function Home() {
 						or: ship 10h, get RenRan an Octocat!
 					</h2>
 
-					<div className="grid grid-cols-2 bg-orange-100 rounded-4xl drop-shadow-xl -rotate-6 mt-12 p-4">
+					<div className="grid grid-cols-2 bg-orange-100 rounded-4xl drop-shadow-xl -rotate-6 mt-12 gap-2 p-6 hover:-rotate-3 transition-transform duration-200">
 						<Image
 							src={"/octocat_nobg.png"}
 							width={850}
